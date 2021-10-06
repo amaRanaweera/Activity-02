@@ -1,3 +1,5 @@
-value = 50
+from person import Person
+
+person = Person('John')
 print("Hello")
-print(value)
+print(person.value)
